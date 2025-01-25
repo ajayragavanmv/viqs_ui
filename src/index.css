@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #f3f4f6;
+}
+
+/* Remove dark mode background */
+:root {
+  background-color: #f3f4f6;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+/* Optional: Adjust dark mode if needed */
+@media (prefers-color-scheme: dark) {
+  :root {
+    background-color: #1a1a1a;
+  }
+}
